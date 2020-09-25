@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void display(int num){
         TextView textView=(TextView)findViewById(R.id.tv1);
-        textView.setText(" "+num);
+        textView.setText(""+num);
 
     }
     public void displayB(int num){
         TextView textView=(TextView)findViewById(R.id.tv2);
-        textView.setText(" "+num);
+        textView.setText(""+num);
 
     }
 
